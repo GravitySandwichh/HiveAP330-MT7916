@@ -22,14 +22,14 @@ opkg update
 
 # Install CPU Monitoring
 echo "Installing CPU Monitoring"
-wget --no-check-certificate -O /tmp/luci-app-cpu-status_0.4-1_all.ipk https://github.com/gSpotx2f/packages-openwrt/raw/master/current/luci-app-cpu-status_0.4-1_all.ipk
+wget --no-check-certificate -O /tmp/luci-app-cpu-status_0.4-1_all.ipk https://github.com/GravitySandwichh/HiveAP330-MT7916/raw/main/config/luci-app-cpu-status_0.4-1_all.ipk
 opkg install /tmp/luci-app-cpu-status_0.4-1_all.ipk
 rm /tmp/luci-app-cpu-status_0.4-1_all.ipk
 /etc/init.d/rpcd reload
 
 # Install Temp Monitoring
 echo "Installing Temperature Monitoring"
-wget --no-check-certificate -O /tmp/luci-app-temp-status_0.3-5_all.ipk https://github.com/gSpotx2f/packages-openwrt/raw/master/current/luci-app-temp-status_0.3-5_all.ipk
+wget --no-check-certificate -O /tmp/luci-app-temp-status_0.3-5_all.ipk https://github.com/GravitySandwichh/HiveAP330-MT7916/raw/main/config/luci-app-temp-status_0.3-5_all.ipk
 opkg install /tmp/luci-app-temp-status_0.3-5_all.ipk
 rm /tmp/luci-app-temp-status_0.3-5_all.ipk
 /etc/init.d/rpcd reload
