@@ -21,4 +21,3 @@ config interface 'lan'
 config device
 	option name 'wlan2'
 	option multicast_router '1'
-
