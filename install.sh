@@ -63,7 +63,7 @@ echo "Disabling Firewall"
 echo "Creating RC Script to make sure Firewall and DHCP Server stay disabled on upgrade"
 wget --no-check-certificate -O /etc/rc.local https://raw.githubusercontent.com/GravitySandwichh/HiveAP330-MT7916/main/config/rc.local
 
-echo "Configuration has finished! Router will now reboot and request DHCP address. It will be reachable from there.
+echo "Configuration has finished! Router will now reboot and request DHCP address. It will be reachable from there. Please note that this can take a while due to the amount of changes made."
 /etc/init.d/network reload
 
 sleep 10s
