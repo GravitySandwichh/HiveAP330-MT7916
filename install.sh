@@ -5,7 +5,9 @@
 # HiveAP 330 MT7916
 
 echo "Welcome to the automated HiveAP 330 Deployment script for MT7916 Upgraded AP\'s"
-echo "Please enter the name of this access point that will be used during deployment:"
+echo ""
+echo ""
+echo "Please enter the Access Point name:"
 read APName
 
 # Set hostname
