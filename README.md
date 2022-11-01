@@ -1,5 +1,5 @@
 # HiveAP330-MT7916
-Automatic Deployment for Aerohive HiveAP330 running OpenWRT with a MT7916 Networking Card
+Automatic Deployment for Aerohive HiveAP330 running OpenWRT with a MT7916 Wifi6E 802.11ax Networking Card
 
 To use, run in CLI:
 
