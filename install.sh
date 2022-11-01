@@ -36,10 +36,10 @@ rm /tmp/luci-app-temp-status_0.3-5_all.ipk
 
 # Download MT7916 Firmware
 echo "Downloading MT7916 Firmware"
-wget --no-check-certificate -O /lib/firmware/mediatek/mt7916_eeprom.bin https://github.com/openwrt/mt76/blob/master/firmware/mt7916_eeprom.bin
-wget --no-check-certificate -O /lib/firmware/mediatek/mt7916_rom_patch.bin https://github.com/openwrt/mt76/blob/master/firmware/mt7916_rom_patch.bin
-wget --no-check-certificate -O /lib/firmware/mediatek/mt7916_wa.bin https://github.com/openwrt/mt76/blob/master/firmware/mt7916_wa.bin
-wget --no-check-certificate -O /lib/firmware/mediatek/mt7916_wm.bin https://github.com/openwrt/mt76/blob/master/firmware/mt7916_wm.bin
+wget --no-check-certificate -O /lib/firmware/mediatek/mt7916_eeprom.bin https://github.com/openwrt/mt76/raw/master/firmware/mt7916_eeprom.bin
+wget --no-check-certificate -O /lib/firmware/mediatek/mt7916_rom_patch.bin https://github.com/openwrt/mt76/raw/master/firmware/mt7916_rom_patch.bin
+wget --no-check-certificate -O /lib/firmware/mediatek/mt7916_wa.bin https://github.com/openwrt/mt76/raw/master/firmware/mt7916_wa.bin
+wget --no-check-certificate -O /lib/firmware/mediatek/mt7916_wm.bin https://github.com/openwrt/mt76/raw/master/firmware/mt7916_wm.bin
 
 # Install MT7915 Kernel Modules
 echo "Installing MT7915e Kernel Modules"
