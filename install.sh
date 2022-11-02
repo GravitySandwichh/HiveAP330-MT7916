@@ -36,6 +36,7 @@ rm /tmp/luci-app-temp-status_0.3-5_all.ipk
 
 # Download MT7916 Firmware
 echo "Downloading MT7916 Firmware"
+mkdir /lib/firmware/mediatek/
 wget --no-check-certificate -O /lib/firmware/mediatek/mt7916_eeprom.bin https://github.com/openwrt/mt76/raw/master/firmware/mt7916_eeprom.bin
 wget --no-check-certificate -O /lib/firmware/mediatek/mt7916_rom_patch.bin https://github.com/openwrt/mt76/raw/master/firmware/mt7916_rom_patch.bin
 wget --no-check-certificate -O /lib/firmware/mediatek/mt7916_wa.bin https://github.com/openwrt/mt76/raw/master/firmware/mt7916_wa.bin
